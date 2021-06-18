@@ -1,0 +1,4 @@
+selector:
+    Element selector.
+    Class selector.
+    ID selector.
