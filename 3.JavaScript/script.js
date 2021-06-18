@@ -25,3 +25,12 @@ switch (letter) {
   default:
     console.log("The letter is consonant");
 }
+
+
+//get the input from user and print even number from 2 to 100 (for loop)
+
+var startNumber = prompt("Enter the start number : ");
+var lastNumber = prompt("Enter the last number : ");
+for (var i = startNumber; i <= lastNumber; i = i++) {
+  console.log(" " + i);
+}
