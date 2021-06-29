@@ -3,11 +3,11 @@ var number1 = prompt("Enter the first number : ");
 var number2 = prompt("Enter the last nunmber : ");
 
 if (number1 > number2)
-  console.log("First number is greater than Last number");
+    console.log("First number is greater than Last number");
 else if (number2 > number1)
-  console.log("Last number is greater than First number");
+    console.log("Last number is greater than First number");
 else
-  console.log("Both numbers are equal");
+    console.log("Both numbers are equal");
 
 
 //Checking Vowels
@@ -15,15 +15,15 @@ else
 var letter = prompt("Enter a alphabetc : ");
 letter = letter.toLowerCase();
 switch (letter) {
-  case 'a':
-  case 'e':
-  case 'i':
-  case 'o':
-  case 'u':
-    console.log("The letter is Vowel");
-    break;
-  default:
-    console.log("The letter is consonant");
+    case 'a':
+    case 'e':
+    case 'i':
+    case 'o':
+    case 'u':
+        console.log("The letter is Vowel");
+        break;
+    default:
+        console.log("The letter is consonant");
 }
 
 
@@ -32,5 +32,8 @@ switch (letter) {
 var startNumber = prompt("Enter the start number : ");
 var lastNumber = prompt("Enter the last number : ");
 for (var i = startNumber; i <= lastNumber; i = i++) {
-  console.log(" " + i);
+    console.log(" " + i);
 }
+
+// what is the result of "2"*3
+console.log("2" * 3);
