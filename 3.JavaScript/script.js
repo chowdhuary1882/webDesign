@@ -37,3 +37,12 @@ for (var i = startNumber; i <= lastNumber; i = i++) {
 
 // what is the result of "2"*3
 console.log("2" * 3);
+
+// Multiplication Table
+var tableNumber = prompt("Enter the number till you look for the multiplication Table: ");
+for (var i = 1; i <= 10; i++) {
+    console.log("***************" + "Multiplication Table for :" + i + " ***************");
+    for (var j = 1; j <= tableNumber; j++) {
+        console.log("Multiplication of " + i + "*" + j + " is: " + (j * i));
+    }
+}
