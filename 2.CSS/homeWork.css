@@ -1,4 +1,7 @@
 h2{
+    margin: auto ;
+    padding: auto;
     color: aquamarine;
-    
+    display: block;
+    text-align: center;  
 }
