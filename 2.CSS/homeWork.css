@@ -1,7 +1,11 @@
+
+body{
+    background-color: aquamarine;
+}
 h2{
     margin: auto ;
     padding: auto;
-    color: aquamarine;
+         color: aquamarine;
     display: block;
     text-align: center;  
 }
