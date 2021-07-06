@@ -1,0 +1,31 @@
+body{
+    background-color: white;
+    margin: 0;
+    font-family: 'popins', sans-serif;
+}
+section{
+    height: 500px;
+    padding-bottom: 15px;
+}
+.order-button{
+text-decoration: none;
+font-weight: 400px;
+background-image: linear-gradient(45deg,lightsalmon, tomato);
+color:white;
+border-radius: 5px;
+padding: 15px, 35px;
+text-align: center;
+}
+
+.content-half-width{
+    width: 40%;
+    float: left;
+    margin-left: 2%;
+    padding-left: 2%;
+}
+.content-half-width img{
+    width:100%;
+}
+.top-content-background-img{
+    background-image: url("../images/Background-Orange.png");
+}
