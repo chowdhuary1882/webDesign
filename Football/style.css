@@ -1,12 +1,69 @@
 /*---------------
- fonts
- ----------------- */
+        fonts
+ -------------- */
  @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
 
- /*------------
-  Base Styles
-  -------------------- */
+ /*-------------------
+     Base Styles
+  ------------------ */
   body{
     font-family: 'Poppins', sans-serif;
     background-color: white;
   }
+
+/*-------------------
+      Banner  
+ -------------------*/
+.banner{
+    background-color: #2D25A0;
+    height: 690px;
+    display: grid;
+    align-items: center;
+  
+}
+
+.banner-items{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-column-gap: 102px;
+   
+}
+.banner-items p{
+    font-size: 60px;
+    font-weight: bold;
+    color: white;
+    margin-left: 156px;
+}
+#banner-items-button{
+    padding: 10px 24px;
+    background-color: #E02C6D;
+    color: white;
+    font-size: 16px;
+    align-items: flex-start;
+    margin-left: 156px;
+    margin-top: -28px;
+    border: none;
+    text-decoration: none;
+}
+
+.fa-arrow-right{
+    margin-left:8px;
+    width: 16px;
+    height: 14px;
+    color: white;
+}
+.banner-items img{
+    width: 556px;
+    height: 438px;
+}
+
+/*-------------------
+     Animation
+ -------------------*/
+.banner-items:hover.banner-items img{
+    transform: rotate(30deg);
+    
+}
+.banner-items img{
+    transition: 1s ease,  1s, transform 10s;
+}
