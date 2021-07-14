@@ -102,3 +102,86 @@
     
 }
 
+ /*--------------------------
+  Highlight items styles
+  ---------------------------- */
+  .highlight-copa{
+    display: grid;   
+} 
+
+.highlight-items{
+   display:grid;
+   grid-template-columns: repeat(2, 1fr);
+   grid-column-gap: 66px;
+}
+     
+#highlight-info1{
+     font-size: 48px;
+     font-weight:700;
+     margin: 24px 0;
+     text-align: center;
+     margin-top: 224px;    
+ }
+
+#highlight-info2{
+     font-size: 48px;
+     font-weight:700;
+     margin: 24px 0;
+     text-align: center;
+     margin-left: 130px;   
+ }
+ 
+#highlight-info3{
+     font-size: 16px;
+     width:404px;
+     margin-left: 160px;
+ }
+
+#highlight-button{
+   background-color: #E02C6D;
+   padding: 10px 24px;
+   border: none;
+   margin-left: 160px;
+   color: white;
+   font-size: 16px;
+   text-decoration: none;
+}
+
+.highlight-items img{
+     width: 567px;
+     height: 427px;
+     margin-top: 165px;
+ }
+
+ /*------------------------
+         footer design
+  -------------------------- */
+
+footer img{
+   width: 483px;
+   height: 110px;
+   margin-top: 158px;
+   margin-left: 475px;
+}
+#social{
+   margin-left: 600px;
+   margin-top: 20px;
+}
+
+#social i {
+   background-color:rgba(59, 54, 54, 0.664);
+   border-radius: 40px;
+   color: white;
+   height: 40px;
+   line-height: 40px;
+   margin: 0 14px;
+   width: 40px;
+   font-size: 24px;
+   text-align: center;
+}
+footer p{
+   font-size: 18px;
+   text-align: center;
+   margin-left: 150px;
+   margin-top: 20px;
+}
