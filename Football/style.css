@@ -19,6 +19,7 @@
     background-color: #2D25A0;
     height: 690px;
     display: grid;
+    justify-content: center;
     align-items: center;
   
 }
