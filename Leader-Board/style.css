@@ -1,0 +1,35 @@
+/* Common Utilities */
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+body{
+    margin:0;
+    padding: 0; 
+    background-color: #E5E5E5;
+    font-family: 'Poppins',
+    sans-serif;
+}
+.top-players{
+background-color: #FFFFFF;
+height: 679px;
+width: 870px;
+left: 285px;
+top: 130px;
+border-radius: 5px;
+display:flex;
+}
+.top-player{
+
+}
+.top-title{
+    color:#562EFF;
+}
+.top-player-info{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+.top-player-img{
+    display: flex;
+    height: 56px;
+    width: 56px;
+    justify-content: center;
+}
